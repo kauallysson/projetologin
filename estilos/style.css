@@ -67,6 +67,7 @@ form > div.campo{
     height: 40px;
     margin: 5px 0;
     border-radius: 15px;
+    border: rgba(0, 0, 139, 0.799);
 }
 div.campo > label{
     display: none;
@@ -124,3 +125,20 @@ form > a.botao:hover{
     color: white;
     transition: 0.7s;
 }
+span{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 6px;
+}
+div.campo > input{
+ width: calc(100% - 44.9px);
+ height: 100%;
+ border-radius: 15px;
+ border: 1px solid rgba(0, 0, 139, 0.799);
+ padding: 5px;
+ transform: translateY(-14px);
+ transform: translateX(-1px);
+ transform: translateZ(8px);
+}
+
